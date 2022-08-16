@@ -5,7 +5,7 @@ import shoePolish from '../public/shoe.jpg'
 import dish from '../public/dish.jpg'
 import five from '../public/5L.jpg'
 import one from '../public/1L.jpg'
-import logo from '../public/newLogo.png'
+import soon from '../public/cs.jpg'
 import Image from 'next/image'
 
 const Featured = () => {
@@ -49,7 +49,7 @@ const Featured = () => {
                     
                 </div>
                 <div className="text-center text-red-500  dark:text-red-500 ">
-                <Image src={logo} height={140} width={170} alt="washing paste"/>
+                <Image src={soon} height={140} width={170} alt="washing paste"/>
                 <h3 className="mb-1 py-2 text-2xl font-bold tracking-tight text-red-500  dark:text-white">
                         <a href="#">Washing Paste</a>
                     </h3>
@@ -73,7 +73,7 @@ const Featured = () => {
                     
                 </div>
                 <div className="text-center text-red-500  dark:text-red-500 ">
-                <Image src={dish} height={140} width={170} alt="toilet cleaner"/>
+                <Image src={soon} height={140} width={170} alt="toilet cleaner"/>
                     <h3 className="mb-1 py-2 text-2xl font-bold tracking-tight text-red-500  dark:text-white">
                         <a href="#">Toilet Cleaner</a>
                     </h3>

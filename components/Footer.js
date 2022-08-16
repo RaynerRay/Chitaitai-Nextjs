@@ -20,7 +20,7 @@ const Footer = () => {
             />
           </div>
           <div>
-            <p className="mb-4 font-heading font-medium text-base">We are more than just a company</p>
+            <p className="mb-4 font-heading font-medium text-base">Tell A Neighbour To Tell A Neighbour</p>
             <p className="text-gray-600 text-sm">&copy; Copyright 2022. website by Rayner.</p>
           </div>
         </div>

@@ -72,7 +72,7 @@ const Contact = () => {
                     
                   >
                     <div className="text-white px-4 py-6 md:p-12 md:mx-6">
-                      <h4 className="text-xl font-semibold mb-6">We are more than just a company</h4>
+                      <h4 className="text-xl font-semibold mb-6">Tell A Neighbour To Tell A Neighbour</h4>
 
                       <div className="flex mb-8 max-w-[370px] w-full">
                       <div
