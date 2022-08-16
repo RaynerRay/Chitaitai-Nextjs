@@ -29,9 +29,9 @@ const Footer = () => {
         <div className="h-full">
           <h3 className="mb-9 font-heading font-semibold text-xs text-red-500 uppercase tracking-px">Quick Links</h3>
           <ul>
-            <li className="mb-4"><p className="font-heading font-medium text-base text-gray-900 hover:text-gray-700" href="#about">About</p></li>
-            <li className="mb-4"><p className="font-heading font-medium text-base text-gray-900 hover:text-gray-700" href="#products">Products</p></li>
-            <li className="mb-4"><p className="font-heading font-medium text-base text-gray-900 hover:text-gray-700" href="#contact">Contact Us</p></li>
+            <li className="mb-4"><a className="font-heading font-medium text-base text-gray-900 hover:text-gray-700" href="#about">About</a></li>
+            <li className="mb-4"><a className="font-heading font-medium text-base text-gray-900 hover:text-gray-700" href="#products">Products</a></li>
+            <li className="mb-4"><a className="font-heading font-medium text-base text-gray-900 hover:text-gray-700" href="#contact">Contact Us</a></li>
           </ul>
         </div>
       </div>
