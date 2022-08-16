@@ -39,8 +39,8 @@ const Footer = () => {
         <div className="h-full">
           <h3 className="mb-9 font-heading font-semibold text-xs text-red-500 uppercase tracking-px">Support</h3>
           <ul>
-            <li className="mb-4"><p className="font-heading font-medium text-base text-gray-900 hover:text-gray-700" href="#">+263 772 340 505 | +263734 348 0713</p></li>
-            <li className="mb-4"><p className="font-heading font-medium text-base text-gray-900 hover:text-gray-700" href="#">info@chitaitai.com</p></li>
+            <li className="mb-4"><p className="font-heading font-medium text-base text-gray-900 hover:text-gray-700" href="#">+263 78577 4848 | 0242371101</p></li>
+            <li className="mb-4"><p className="font-heading font-medium text-base text-gray-900 hover:text-gray-700" href="#">sales@chitaitai.com</p></li>
           </ul>
         </div>
       </div>
