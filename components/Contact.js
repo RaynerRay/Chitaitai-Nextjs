@@ -5,7 +5,7 @@ import logo from '../public/newLogo.png'
 
 const Contact = () => {
   return (
-    <div classNameName=" mb-6">
+    <div className=" mb-6">
 
       <section className="h-full gradient-form bg-gray-200 md:h-screen" id='contact'>
         <div className="container py-12 px-6 h-full">
@@ -138,7 +138,8 @@ const Contact = () => {
                   </div>
                   <div className="w-full">
                      <h4 className="font-bold text-dark text-xl mb-1">Phone Number</h4>
-                     <p className="text-base text-body-color">+263 772 340 505</p>
+                     <p className="text-base text-body-color">+263 778 577 4848</p>
+                     <p className="text-base text-body-color">0242371101</p>
                   </div>
                </div>
 
@@ -175,7 +176,7 @@ const Contact = () => {
                      <h4 className="font-bold text-dark text-xl mb-1">
                         Email Address
                      </h4>
-                     <p className="text-base text-body-color">info@chitaitai.com</p>
+                     <p className="text-base text-body-color">sales@chitaitai.com</p>
                   </div>
                </div>
 
