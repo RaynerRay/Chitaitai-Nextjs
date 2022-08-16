@@ -64,7 +64,7 @@ export default function Example() {
                 {/* Profile dropdown */}
                 <Menu as="div" className="ml-3 relative">
                   <div className='cursor-pointer'>
-                  <a href="https://wa.me/+263772340505" target='_blank' >
+                  <a href="https://wa.me/+263772340505" target='_blank' rel="noopener noreferrer">
                       <Image
                         className=" rounded-full"
                         height={30}

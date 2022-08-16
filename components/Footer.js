@@ -6,7 +6,6 @@ const Footer = () => {
   return (
     <div>
       <section className="relative py-24 overflow-hidden">
-  <img className="absolute bottom-0 left-0" src="gradia-assets/elements/footers/radial.svg" alt="" />
   <div className="relative z-10 container mx-auto px-4" >
     <div className="flex flex-wrap -m-6">
       <div className="w-full md:w-1/2 lg:w-5/12 p-6">
