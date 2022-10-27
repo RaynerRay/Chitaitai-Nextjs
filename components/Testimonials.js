@@ -14,7 +14,7 @@ const Testimonials = () => {
             <p className="mb-2 text-lg text-gray-900">&ldquo;We offer a specialized product range. We are currently into manufacturing household and 
 plans are underway to produce industrial chemicals.&rdquo;</p>
             <h3 className="mb-1.5 font-heading font-bold text-lg text-gray-900">T. Kare </h3>
-            <p className="text-sm text-gray-600">Operations Director</p>
+            <p className="text-sm text-gray-600">HR & Quality</p>
           </div>
         </div>
       </div>
@@ -33,8 +33,8 @@ highly qualified and professional personnel.&rdquo;</p>
           <div className="h-full px-7 py-8 bg-white rounded-lg">
             <p className="mb-2 text-lg text-gray-900">&ldquo;We put trust in & hold both the team and individual members accountable by means 
 of measurable outcomes &rdquo;</p>
-            <h3 className="mb-1.5 font-heading font-bold text-lg text-gray-900">Mr B.Mafurirano</h3>
-            <p className="text-sm text-gray-600">HR and Risk Director</p>
+            <h3 className="mb-1.5 font-heading font-bold text-lg text-gray-900">F. Chihwai</h3>
+            <p className="text-sm text-gray-600">Procurement</p>
           </div>
         </div>
       </div>

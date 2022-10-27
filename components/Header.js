@@ -3,6 +3,10 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import whatsapp from '../public/whatsapp.png'
+import instagram from '../public/instagram.png'
+import tiktok from '../public/tiktok.png'
+import facebook from '../public/facebook.png'
+import twitter from '../public/twitter.jpg'
 import Image from 'next/image'
 import Link from 'next/link';
 
@@ -84,27 +88,115 @@ export default function Example() {
                     leaveTo="transform opacity-0 scale-95"
                   >
                     <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
-                          >
-                            FAQ
-                          </a>
-                        )}
-                      </Menu.Item>
                       
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
-                          >
-                            Sign out
-                          </a>
-                        )}
-                      </Menu.Item>
+                    </Menu.Items>
+                  </Transition>
+                </Menu>
+
+                <Menu as="div" className="ml-3 relative">
+                  <div className='cursor-pointer'>
+                  <a href="https://www.instagram.com/invites/contact/?i=e7t8jy8shqyl&utm_content=oodxl54" target='_blank' rel="noopener noreferrer">
+                      <Image
+                        className=" rounded-full"
+                        height={30}
+                        width={30}
+                        src={instagram}
+                        alt="logo"
+                      />
+                      </a>
+                  </div>
+                  <Transition
+                    as={Fragment}
+                    enter="transition ease-out duration-100"
+                    enterFrom="transform opacity-0 scale-95"
+                    enterTo="transform opacity-100 scale-100"
+                    leave="transition ease-in duration-75"
+                    leaveFrom="transform opacity-100 scale-100"
+                    leaveTo="transform opacity-0 scale-95"
+                  >
+                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      
+                    </Menu.Items>
+                  </Transition>
+                </Menu>
+
+                <Menu as="div" className="ml-3 relative">
+                  <div className='cursor-pointer'>
+                  <a href="https://vm.tiktok.com/ZMNtNPVTD/" target='_blank' rel="noopener noreferrer">
+                      <Image
+                        className=" rounded-full"
+                        height={30}
+                        width={30}
+                        src={tiktok}
+                        alt="logo"
+                      />
+                      </a>
+                  </div>
+                  <Transition
+                    as={Fragment}
+                    enter="transition ease-out duration-100"
+                    enterFrom="transform opacity-0 scale-95"
+                    enterTo="transform opacity-100 scale-100"
+                    leave="transition ease-in duration-75"
+                    leaveFrom="transform opacity-100 scale-100"
+                    leaveTo="transform opacity-0 scale-95"
+                  >
+                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      
+                    </Menu.Items>
+                  </Transition>
+                </Menu>
+                <Menu as="div" className="ml-3 relative">
+                  <div className='cursor-pointer'>
+                  <a href="https://twitter.com/ChitaitaiL" target='_blank' rel="noopener noreferrer">
+                      <Image
+                        className=" rounded-full"
+                        height={30}
+                        width={30}
+                        src={twitter}
+                        alt="logo"
+                      />
+                      </a>
+                  </div>
+                  <Transition
+                    as={Fragment}
+                    enter="transition ease-out duration-100"
+                    enterFrom="transform opacity-0 scale-95"
+                    enterTo="transform opacity-100 scale-100"
+                    leave="transition ease-in duration-75"
+                    leaveFrom="transform opacity-100 scale-100"
+                    leaveTo="transform opacity-0 scale-95"
+                  >
+                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      
+                    </Menu.Items>
+                  </Transition>
+                </Menu>
+
+
+                <Menu as="div" className="ml-3 relative">
+                  <div className='cursor-pointer'>
+                  <a href="https://www.facebook.com/chitaitaichemicals" target='_blank' rel="noopener noreferrer">
+                      <Image
+                        className=" rounded-full"
+                        height={30}
+                        width={30}
+                        src={facebook}
+                        alt="logo"
+                      />
+                      </a>
+                  </div>
+                  <Transition
+                    as={Fragment}
+                    enter="transition ease-out duration-100"
+                    enterFrom="transform opacity-0 scale-95"
+                    enterTo="transform opacity-100 scale-100"
+                    leave="transition ease-in duration-75"
+                    leaveFrom="transform opacity-100 scale-100"
+                    leaveTo="transform opacity-0 scale-95"
+                  >
+                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      
                     </Menu.Items>
                   </Transition>
                 </Menu>

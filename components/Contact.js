@@ -24,7 +24,7 @@ const Contact = () => {
                           alt="logo"
                         />
                       </div>
-                      <form>
+                      <form action="https://formsubmit.co/sales@chitaitai.com" method="POST" >
                         <p className="my-4">Send Us A Message</p>
                         <div className="mb-4">
                           <input
@@ -32,6 +32,7 @@ const Contact = () => {
                             className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                             id="exampleFormControlInput1"
                             placeholder="Name"
+                            name="Name"
                           />
                         </div>
                         <div className="mb-4">
@@ -40,6 +41,7 @@ const Contact = () => {
                             className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                             id="exampleFormControlInput1"
                             placeholder="Email"
+                            name="Email"
                           />
                         </div>
                         <div className="mb-4">
@@ -48,6 +50,7 @@ const Contact = () => {
                             className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                             id="exampleFormControlInput1"
                             placeholder="Your Message"
+                            name="Message"
                           >
                           </textarea>
                         </div>
@@ -55,7 +58,8 @@ const Contact = () => {
                         <div className="text-center pt-1 mb-12 pb-1">
                           <button
                             className="bg-gradient-to-r from-[#ee7724] via-[#d8363a] to-[#b44593] inline-block px-6 py-2.5 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3"
-                            type="button"
+                            
+                            type="submit"
                             data-mdb-ripple="true"
                             data-mdb-ripple-color="light"
                             >

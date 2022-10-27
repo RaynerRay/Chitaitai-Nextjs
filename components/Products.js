@@ -7,6 +7,7 @@ import five from '../public/5L.jpg'
 import one from '../public/1L.jpg'
 import soon from '../public/cs.jpg'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Featured = () => {
   return (
@@ -20,14 +21,14 @@ const Featured = () => {
                 <div className="text-center text-red-500  dark:text-red-500  ">
                     <Image src={floor} height={140} width={170} alt="floor polish" />
                     <h3 className="mb-1 py-2 text-2xl font-bold tracking-tight text-red-500  dark:text-white">
-                        <a href="#">Floor Polish</a>
+                    <Link href="/floor">Floor Polish</Link>
                     </h3>
                     
                 </div>
                 <div className="text-center text-red-500  dark:text-red-500 ">
                 <Image src={pineGel} height={140} width={170} alt="pine gel"/>
                     <h3 className="mb-1 py-2 text-2xl font-bold tracking-tight text-red-500  dark:text-white">
-                        <a href="#">Pine Gel</a>
+                        <Link href="/gel">Pine Gel</Link>
                     </h3>
                     
                     
@@ -35,7 +36,7 @@ const Featured = () => {
                 <div className="text-center text-red-500  dark:text-red-500 ">
                 <Image src={shoePolish} height={140} width={170} alt="shoe polish"/>
                     <h3 className="mb-1 py-2 text-2xl font-bold tracking-tight text-red-500  dark:text-white">
-                        <a href="#">Shoe Polish</a>
+                    <Link href="/shoe">Shoe Polish</Link>
                     </h3>
                    
                     
@@ -43,7 +44,7 @@ const Featured = () => {
                 <div className="text-center text-red-500  dark:text-red-500 ">
                 <Image src={dish} height={140} width={170} alt="dish washer"/>
                     <h3 className="mb-1 py-2 text-2xl font-bold tracking-tight text-red-500  dark:text-white">
-                        <a href="#">Dish Washer</a>
+                    <Link href="/dish">Dish Washer</Link>
                     </h3>
                     
                     
@@ -51,31 +52,17 @@ const Featured = () => {
                 <div className="text-center text-red-500  dark:text-red-500 ">
                 <Image src={soon} height={140} width={170} alt="washing paste"/>
                 <h3 className="mb-1 py-2 text-2xl font-bold tracking-tight text-red-500  dark:text-white">
-                        <a href="#">Washing Paste</a>
+                Washing Paste
                     </h3>
           
                     
                 </div>
-                <div className="text-center text-red-500  dark:text-red-500 ">
-                <Image src={five} height={140} width={170} alt="floor polish" />
-                    <h3 className="mb-1 py-2 text-2xl font-bold tracking-tight text-red-500  dark:text-white">
-                        <a href="#">5 Litres</a>
-                    </h3>
-                    
-                    
-                </div>
-                <div className="text-center text-red-500  dark:text-red-500 ">
-                <Image src={one} height={140} width={170} alt="floor polish"/>
-                    <h3 className="mb-1 py-2 text-2xl font-bold tracking-tight text-red-500  dark:text-white">
-                        <a href="#">1 Litre</a>
-                    </h3>
-                   
-                    
-                </div>
+              
+               
                 <div className="text-center text-red-500  dark:text-red-500 ">
                 <Image src={soon} height={140} width={170} alt="toilet cleaner"/>
                     <h3 className="mb-1 py-2 text-2xl font-bold tracking-tight text-red-500  dark:text-white">
-                        <a href="#">Toilet Cleaner</a>
+                    Toilet Cleaner
                     </h3>
             
                     
